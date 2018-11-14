@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="eventHandler"
+            type="com.eascs.share.dialog.ShareGridEventHandler" />
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/YD_FFFFFF"
+        android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/money_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recylerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/YD_D8D8D8" />
+
+            <TextView
+                android:id="@+id/cancel"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/YD_FFFFFF"
+                android:gravity="center"
+                android:onClick="@{() -> eventHandler.cancel()}"
+                android:text="取消"
+                android:textColor="@color/YD_333333"
+                android:textSize="14.6sp" />
+
+    </LinearLayout>
+
+</layout>

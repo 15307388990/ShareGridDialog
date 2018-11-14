@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/YD_FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/money_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5.7dp"
+            android:text="赚"
+            android:textColor="@color/YD_FD2A5B"
+            android:textSize="15.4sp" />
+
+        <TextView
+            android:id="@+id/money_count_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/YD_FD2A5B"
+            android:textSize="26.9sp"
+            tools:text="66.8元" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/make_money_content_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="41dp"
+        android:layout_marginRight="41dp"
+        android:textColor="@color/YD_333333"
+        android:textSize="15.4sp"
+        android:visibility="gone"
+        tools:text="只要你的好友通过你的链接购买此商品，"
+        tools:visibility="visible" />
+</LinearLayout>

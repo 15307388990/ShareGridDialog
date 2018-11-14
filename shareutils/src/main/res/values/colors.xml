@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="YD_D8D8D8">#D8D8D8</color>
+    <color name="YD_FD2A5B">#FD2A5B</color>
+    <color name="YD_333333">#333333</color>
+    <color name="transparent">#00000000</color>
+    <color name="YD_FFFFFF">#FFFFFF</color>
+    <color name="YD_3E3E3E">#3E3E3E</color>
+</resources>
