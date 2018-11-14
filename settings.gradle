@@ -1,0 +1,28 @@
+//include ':signchecklib'
+//include  ':addresslib', ':addressdemo'
+//include ':app'
+//include ':basesdklib'
+//include  ':common'
+//include ':cordovax5' //,':CordovaLib', //, ':cordovademo'
+//include  ':imgcompresslib', ':imagecompressdemo'
+//include  ':locationlib',
+//include  ':locationlibdemo'
+//include  ':locationlib-gd'
+//include  ':logstatistics'
+//include ':mvplib'
+//include ':eaim', ':eaimmdemo'
+//include ':networklib'
+//include ':off-line-res'
+//include ':paylib'
+//include  ':permission' ,'permissiondemo'
+//include  ':photolib'
+//include ':refreshlib'
+include  ':shareutils', ':sharedemo'
+//include ':sp-compiler', ':sp-manager', ':sp-annotations', ':sp-demo'
+//include ':thirdloginlib'
+
+
+//include ':testmodule'
+//include  ':upgrade'//,"upgradedemo"
+//include  ':webviewlib'
+//include ':zqrcode'

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ShareGirdDialog.iml" filepath="$PROJECT_DIR$/.idea/modules/ShareGirdDialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sharedemo/sharedemo.iml" filepath="$PROJECT_DIR$/sharedemo/sharedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shareutils/shareutils.iml" filepath="$PROJECT_DIR$/shareutils/shareutils.iml" />
+    </modules>
+  </component>
+</project>
